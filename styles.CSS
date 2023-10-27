@@ -1,0 +1,62 @@
+/* selector{
+	property: value;
+}*/
+body{
+	margin: 0px;
+}
+
+h{
+	font-family: Faster One;
+	font-size: 50px;
+	border-bottom: 2px solid;
+	border-right: 2px solid;
+	width: 400px;
+	box-shadow: 4px 4px 5px rgba(0, 0, 0, 1.0);
+	margin: 0px;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+img{
+	width: 250px;
+	height: 250px;
+	transition: all 1s;
+}
+img:hover{
+	transform: scale(1.1);
+}
+h1:hover{
+	background: yellow;
+color:red;
+text-align: center;
+cursor: pointer;
+}
+body{
+	background-image: url(man-meditating-outside-restricted.jpeg);
+	background-size:cover;
+}
+
+li{color:greenyellow;}
+p{
+	font-family: 'IBM Plex Mono', monospace;
+	font-size: 120%;
+	text-decoration: underline;
+}
+
+span{
+	font-size: 2em;
+}
+p4{
+	font-size: 5em;
+	font-family:cursive;
+
+}
+
+footer{
+	clear:both;
+	text-align: center;
+	color: rgba(60, 40, 250, 70);
+	font-family: 'Rubik Iso', cursive;
+}
